@@ -1,0 +1,34 @@
+// //first 2 persons come and show the ticket
+// //same
+// console.log('person1: show ticket');
+// console.log('person2: show ticket');
+
+// //lets say i do not have a ticket so i make a promise
+// //same
+// const promiseFriendBrings = new Promise((resolve,reject) => {
+//     //we got to wait sometime
+//     setTimeout(()=>{
+//         resolve('ticket');
+//     },3000)
+// })
+
+
+// //wife is hungry
+// //changed
+// const getPopcorn = promiseFriendBrings.then((t)=>{
+//     console.log('wife: I have the Tickets');
+//     console.log('Husband: Lets go in');
+//     console.log("wife: I'm hungry");
+//     return new Promise((resolve,reject)=> resolve(`${t} popcorn`));
+// })
+
+// //butter on popcorn
+// const getButter = getPopcorn.then((t)=>{
+//     console.log('Husband: I got some popcorn');
+//     console.log('Husband: Lets go in');
+//     console.log('wife: I want Butter on Popcorn');
+//     return new Promise((resolve,reject)=> resolve(`${t} butter`));
+// })
+// //now more person shows the tickets
+// console.log('person4: show ticket');
+// console.log('person5: show ticket');
